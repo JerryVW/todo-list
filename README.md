@@ -2,7 +2,7 @@
 
 Built a ToDo List
 
-<img src="img/ToDo_List_Screenshot">
+<img src="img/ToDo_List_Screenshot.png">
 
 <h2>Summary</h2> 
 
