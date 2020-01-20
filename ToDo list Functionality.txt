@@ -1,0 +1,19 @@
+Project Functionality for ToDo list
+
+1. Get user input
+	- Have user input box with Add Item button
+	- Have input box clear when clicked for another task
+	- Click Add Item button or hit enter
+
+2. Display user input
+	- Have new element created for the users item
+	- Have the option to check the item Off
+	- Have the option to delete the item
+	
+3. When item is checked, change class for color completed and line-through list item.
+	- When clicked, checked area will turn green
+	- When checked are is clicked, item in the list will have a strike-through added
+
+4. Have delete button eliminate any list item completed or non-completed.
+	- When the delete buton is clicked, it will remove the item
+
