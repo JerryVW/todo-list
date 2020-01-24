@@ -2,7 +2,7 @@
 
 Built a ToDo List
 
-You can check it out .[here] (https://jerryvw.github.io/todo-list/)
+You can check it out [here] (https://jerryvw.github.io/todo-list/)
 
 <img src="img/ToDo_List_Screenshot.png">
 
