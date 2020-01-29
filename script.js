@@ -50,13 +50,10 @@ function removeOrChecked(e) {
 function removeItem(e) {
     // In this function we will remove an item from the list and local storage.
     if(e.target.classList.contains("to-delete")){
-        const button = e.target;
-        console.log(button);
         let itemList = document.getElementById("items");
         const li = e.target.parentElement;
         itemList.removeChild(li);
         let arrayList = listArray.indexOf(e.target.previousSibling.textContent);
-        console.log(arrayList);
         listArray.splice(arrayList, 1);
         localStorage.setItem("list-item", JSON.stringify(listArray));
     };
