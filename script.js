@@ -11,8 +11,6 @@ function doItNow() {
 }
 
 function createListItem(newItem) {
-    // In this function we get the user input, create the new element and display the TODO item in the list.
-    // It will also push to local storage for return use.
     let itemList = document.getElementById("items");
     const li = document.createElement("li");
     const input = document.createElement("input");
@@ -36,7 +34,7 @@ function addItem(e) {
     createListItem(newItem); 
     listArray.push(newItem);
     localStorage.setItem("list-item", JSON.stringify(listArray));
-    newItem = document.getElementById("item").value = "";   // Clears out input field when button clicked
+    newItem = document.getElementById("item").value = "";
 }
 
 function removeOrChecked(e) {
@@ -48,7 +46,6 @@ function removeOrChecked(e) {
 }
 
 function removeItem(e) {
-    // In this function we will remove an item from the list and local storage.
     if(e.target.classList.contains("to-delete")){
         let itemList = document.getElementById("items");
         const li = e.target.parentElement;
@@ -60,8 +57,6 @@ function removeItem(e) {
 }
 
 function checkedOff(e) {
-    // In this function we will change the check box color
-    // and add a strikeThrough to the text.
     if(e.target.classList.contains("not-checked")) {
         let li = e.target.nextSibling.style.textDecoration = "line-through";
     }
